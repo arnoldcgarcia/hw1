@@ -231,7 +231,6 @@ ON movies.studio_id = studios.id
 .print "========"
 .print ""
 
-
 -- The SQL statement for the cast output
 SELECT a.movie_title, d.actor_name, c.character_name
 FROM movies as a
